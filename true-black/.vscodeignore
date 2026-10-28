@@ -1,2 +1,6 @@
 .gitignore
 media/README.md
+package-lock.json
+node_modules/**
+*.vsix
+.vscode/**
