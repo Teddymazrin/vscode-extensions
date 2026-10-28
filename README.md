@@ -1,19 +1,16 @@
-# True Black
+# VS Code Extensions
 
-Pure black (`#000000`) backgrounds on top of Dark+. Built for OLED displays and eye-strain reduction.
+VS Code extensions by Teddy Mazrin. Each extension lives in its own folder.
 
-![True Black theme screenshot](https://raw.githubusercontent.com/Teddymazrin/vscode-extensions/main/media/trueblack.png)
+| Extension | Folder | Marketplace |
+|---|---|---|
+| True Black: pure black (`#000000`) backgrounds on top of Dark+ | [true-black/](true-black/) | [TeddyMazrin.true-black](https://marketplace.visualstudio.com/items?itemName=TeddyMazrin.true-black) |
 
-## What it does
+## Publish an extension
 
-Sets all major UI surfaces to `#000000` (editor, sidebar, activity bar, title bar, terminal, panels, tabs, status bar) while keeping Dark+'s syntax highlighting unchanged.
+Run `vsce` from inside the extension's folder:
 
-## Install
-
-Search **True Black** in the VS Code Extensions panel, or install via the [Marketplace](https://marketplace.visualstudio.com/items?itemName=TeddyMazrin.true-black).
-
-Then open the Command Palette and run **Preferences: Color Theme → True Black**.
-
-## License
-
-MIT
+```bash
+cd true-black
+npx vsce publish patch
+```

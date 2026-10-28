@@ -1,0 +1,8 @@
+# Build artifacts
+node_modules/
+dist/
+out/
+.vscode-test/
+*.vsix
+coverage/
+.DS_Store
