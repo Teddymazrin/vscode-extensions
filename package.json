@@ -24,7 +24,7 @@
   "icon": "media/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Teddymazrin/true-black.git"
+    "url": "https://github.com/Teddymazrin/vscode-extensions.git"
   },
   "galleryBanner": {
     "color": "#000000",
